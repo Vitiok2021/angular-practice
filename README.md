@@ -1,4 +1,4 @@
-№ Practic
+# Practic
 
 I use this repo to practice key Angular concepts step by step — from simple data binding to advanced topics like RxJS and design patterns.
 
