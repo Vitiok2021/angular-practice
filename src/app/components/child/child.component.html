@@ -1,2 +1,14 @@
 <input type="text" [(ngModel)]="name" />
 <button (click)="sendToParrent()">Send</button>
+
+@if (isVisible) {
+
+<ul>
+  @for (item of toDoList; track $index) {
+  <li>{{ item.title }}</li>
+  }
+</ul>
+}
+<button (click)="showed()">Show</button>
+<input type="text" [(ngModel)]="todo" />
+<button (click)="addItem()">Add</button>
