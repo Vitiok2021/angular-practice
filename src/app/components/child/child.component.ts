@@ -17,7 +17,7 @@ export class ChildComponent {
     this.mesToPar.emit(this.name);
   }
 
-  isVisible: boolean = false;
+  isVisible: boolean = true;
   todo!: string;
 
   displayList: any[] = [
